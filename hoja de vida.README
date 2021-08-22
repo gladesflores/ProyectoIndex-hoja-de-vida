@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI HOJA DE VIDA.</title>
+</head>
+<body>
+
+    <style>
+#principal{
+border:solid 1px rgb(8, 8, 8);
+width: 80%;
+margin: 0 auto;
+padding: 5px;
+
+
+} 
+fieldset{
+margin-bottom: 10px;
+}
+legend{
+border: solid 1px blueviolet;
+padding: 5px;
+font-weight: bold;
+border-radius: 20%;
+background: rgb(64, 126, 156);
+
+}
+#mifoto{
+margin: 5px;
+border: solid 4px black;
+
+}
+body{
+    background: url(fanation.jpg);
+    background-size: 100%;
+}
+    </style>
+
+    <div id="principal">
+        <img src="luis.jpg" id="mifoto" width="150" align="left" >
+        <h2>Luis Fernando Rengifo Palacios</h2>
+
+        <br><br><br><br><br><br><br>
+
+
+        <fieldset>
+            <legend>Datos generales</legend>
+            <ul>
+           <li>Cedula: 1078004174</li>
+           <li>Direccion: diagonal 40# 33 bsur 37</li>
+           <li>Barrio: Obrero</li>
+           <li>E-mail: nandorengifo07@gmail.com</li>
+           <li>Edad Actual: 19</li>
+           <li>TeL: 3146963901</li>
+           <li>Fecha de nacimiento: 07/09/2001</li>
+         </ul>
+        </fieldset>
+
+        <fieldset>
+         <legend>Estudios Realizados</legend>
+         <UL>
+            <li>Estudios Primarios: Jose Murillo Toro</li>
+            <li>Estudios Secundarios: Matias Trespalacios</li>
+
+         </UL>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Idiomas</legend>
+            <ul>
+            <li>Español: Aprobado</li>
+            <li>Ingles: En proceso</li>
+            <li>Frances: En proceso</li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+         <legend>Experiencia Laboral</legend>
+<ul>
+<li>Nombre De la Empresa: xxxxxxxxxx</li>
+<li>Cargo: xxxxxxxxxx</li>
+<li>Id_Empresarial: xxxxxxxxxx</li>
+
+</ul>
+
+        </fieldset>
+    </div>
+</body>
+</html>
